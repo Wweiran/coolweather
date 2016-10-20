@@ -19,7 +19,7 @@ public class CoolWeatherDB {
     /**
      * 数据库名
      */
-    public static final String DB_NAME = "cool_weather";
+    public static final String DB_NAME = "cool_weather.db";
 
     /**
      * 数据库版本

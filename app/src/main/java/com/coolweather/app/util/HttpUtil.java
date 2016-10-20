@@ -25,7 +25,7 @@ public class HttpUtil {
                     connection.setReadTimeout(8000);
                     InputStream inputStream = connection.getInputStream();
                     BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-                    StringBuilder response = new StringBuilder();
+                    StringBuffer response = new StringBuffer();
                     String line;
                     while ((line = reader.readLine()) != null) {
                         response.append(line);
